@@ -8,10 +8,11 @@ body{
 
 .topleftcirlce{
      position: absolute;
-    width: 50%;
-    height: auto;
-    left: -20%;
-    top: -41%;
+     width: 50%;
+     height: auto;
+     left: -20%;
+     top: -41%;
+     animation: loaderAnimation1 1s linear forwards;
 }
 
 .toprightcircle{
@@ -20,13 +21,67 @@ body{
      height: auto;
      left: 65%;
      top: -99%;
+     animation: toprightcircleAnimation 1s ease-in-out forwards;
+     animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
 }
 
-.bottomrightcircle{
+.bottomrightcircle {
      position: absolute;
      width: 50%;
      height: auto;
-     left: 66%;
-     top: 33%;
+     transform: translateX(-5%) translateY(-4%);
+     animation: bottomrightcircleAnimation 1s forwards;
+     animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+   }
+
+.loaderHeading{
+     animation: headingAnimation 2s ease-in-out forwards;
 }
 
+
+@keyframes loaderAnimation1 {
+     0%{
+          display: block;
+     }
+     100%{
+          opacity: 0;
+          display: none;
+     }
+}
+
+@keyframes headingAnimation {
+     from {
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+     }
+     to {
+          left: 5%;
+          top: 7%;
+          transform: translate(0, 0);
+     }
+}
+
+@keyframes toprightcircleAnimation {
+     from {
+          left: 65%;
+          top: -99%;
+     }
+     to {
+          left: 60%;
+          top: -93%;
+     }
+}
+
+
+@keyframes bottomrightcircleAnimation {
+     from {
+          left: 66%;
+          top: 33%;
+     }
+     to {
+          left: 83%;
+          top: -42%;
+     }
+     
+}
