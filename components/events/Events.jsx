@@ -1,7 +1,7 @@
 function Events() {
   return (
-    <div>
-      <h1>This is Events</h1>
+    <div className="h-screen bg-[#0A060F] text-white">
+      <h1 className="text-6xl font-bold pt-20 pl-16">EVENTS</h1>
     </div>
   );
 }
