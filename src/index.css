@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+     overflow-x: hidden; 
+ }
+
+.topleftcirlce{
+     position: absolute;
+    width: 50%;
+    height: auto;
+    left: -20%;
+    top: -41%;
+}
+
+.toprightcircle{
+     position: absolute;
+     width: 58%;
+     height: auto;
+     left: 65%;
+     top: -99%;
+}
+
+.bottomrightcircle{
+     position: absolute;
+     width: 50%;
+     height: auto;
+     left: 66%;
+     top: 33%;
+}
+

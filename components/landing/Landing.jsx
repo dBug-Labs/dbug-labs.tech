@@ -1,7 +1,9 @@
+import { Loader } from "../loader/Loader";
+
 function Landing() {
   return (
-    <div>
-      <h1>This is Landing</h1>
+    <div className="h-screen overflow-hidden">
+      <Loader/>
     </div>
   );
 }
