@@ -9,8 +9,8 @@ function Events() {
       <div className="sm:text-lg lg:text-xl  sm:flex-col lg:flex-row justify-between">
         <div className="w-[80%] smw-[80%] lg:w-[50%] hidden lg:flex w-full justify-between h-28">
           <div>
-            <h1 className="text-6xl font-bold pt-20 pl-16">EVENTS</h1>
-            <h1 className="text-3xl sm:text-lg lg:text-3xl pb-0 pt-8 pl-16 ">
+            <h1 className="text-6xl font-bold pt-20 pl-20">EVENTS</h1>
+            <h1 className="text-3xl sm:text-lg lg:text-3xl pb-0 pt-8 pl-20 ">
               Upcoming Events
             </h1>
           </div>
