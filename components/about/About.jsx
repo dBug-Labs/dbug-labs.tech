@@ -6,7 +6,7 @@ import vector4 from "./vector4.svg";
 
 function About() {
   return (
-    <div className=" w-full bg-[#0A060F]">
+    <div id="about" className=" w-full bg-[#0A060F]">
       <div className="flex flex-col sm:flex-col lg:flex-row justify-between">
         <div className="text-white w-[80%] smw-[80%] lg:w-[50%]">
           <h1 className="text-white text-6xl pb-20 pl-16 pt-16 font-bold">
