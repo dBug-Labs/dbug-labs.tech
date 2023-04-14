@@ -30,7 +30,7 @@ function Events() {
               src={samplePoster}
               alt="samplePoster"
             />
-            <button className="bg-[#DDA0DD] text-[#0D0C0C] font-bold text-xl mt-8 ml-20 pl-4  py-4 px-4 rounded-full">
+            <button className="bg-[#DDA0DD] hover:bg-[#c185c1] active:bg-[#a56ca6] text-[#0D0C0C] font-bold text-xl mt-8 ml-20 pl-4  py-4 px-4 rounded-full">
               Grab Your Seat
             </button>
           </div>
