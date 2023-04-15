@@ -16,7 +16,7 @@ function Events() {
           </div>
         </div>
         <img className="align" src={vector1} alt="blob1" />
-        <div className="flex flex-col items-center justify-evenly lg:flex-row ">
+        <div className="flex flex-col-reverse  items-center justify-evenly lg:flex-row ">
             <img
               className=""
               src={dbug}
