@@ -5,9 +5,9 @@ import samplePoster from "./samplePoster.svg";
 import dbug from "./dbug.svg"
 function Events() {
   return (
-    <div id="events" className="h-screen bg-[#0A060F] text-white ">
+    <div id="events" className="min-h-screen bg-[#0A060F] text-white ">
       <div className="sm:text-lg lg:text-xl  sm:flex-col lg:flex-row justify-between">
-        <div className="w-[80%] smw-[80%] lg:w-[50%] hidden lg:flex w-full justify-between h-28">
+        <div className="w-[80%] lg:w-[50%] lg:flex w-full h-28">
           <div>
             <h1 className="text-6xl font-bold pt-20 pl-16">EVENTS</h1>
             <h1 className="text-3xl sm:text-lg lg:text-3xl pb-0 pt-8 pl-16 ">
@@ -16,15 +16,13 @@ function Events() {
           </div>
         </div>
         <img className="align" src={vector1} alt="blob1" />
-        <div className="flex flex-cols items-start">
-          <div className="flex flex-cols">
+        <div className="flex flex-col items-center justify-evenly lg:flex-row ">
             <img
-              className=" relative pt-0 object-none mr-44 sm:pl-44 lg:pl-12"
+              className=""
               src={dbug}
               alt="grab a seat"
             />
-          </div>
-          <div className="pl-0">
+          <div className="">
             <img
               className="relative object-fill h-80 w-80 "
               src={samplePoster}
