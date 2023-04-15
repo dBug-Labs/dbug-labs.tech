@@ -32,8 +32,7 @@ function Loader() {
             <img src="landing-images/logo.svg"></img>
             <img
               className="hidden md:block"
-              src="landing-images/dbugnav.svg"
-            ></img>
+              src="landing-images/dbugnav.svg"></img>
             <div className="flex homebutton hidden items-center">
               <img src="landing-images/home.svg"></img>
               <div className="text-xl font-light">HOME</div>
