@@ -2,7 +2,7 @@ import vector1 from "./vector1.svg";
 import vector2 from "./vector2.svg";
 import vector3 from "./vector3.svg";
 import samplePoster1 from "./samplePoster.svg";
-import samplePoster from "./inaug_event.svg";
+import samplePoster from "./dblip.svg";
 
 import dbug from "./dbug.svg"
 function Events() {
